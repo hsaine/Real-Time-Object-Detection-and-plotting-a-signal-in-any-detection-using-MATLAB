@@ -89,3 +89,6 @@ while 1
       end;
 end
 ```
+## Compilation
+ <p align="center"> <img src="f1.jpg" ></p> 
+ <p align="center"> <img src="f2.jpg" ></p> 
