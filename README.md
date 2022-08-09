@@ -1,7 +1,7 @@
 # Real-Time-Object-Detection-and-plotting-a-signal-in-any-detection-using-MATLAB
 
 ## Code Of project 
-
+```
 %%  Activating the Camera
 cam = imaqfind; % Find the object in memory (if it exists!)
 if(~exist('cam'))
@@ -88,3 +88,4 @@ while 1
           end;
       end;
 end
+```
