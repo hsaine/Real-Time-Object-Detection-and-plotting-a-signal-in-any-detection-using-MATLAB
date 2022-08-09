@@ -90,5 +90,8 @@ while 1
 end
 ```
 ## Compilation
- <p align="center"> <img src="f1.jpg" ></p> 
- <p align="center"> <img src="f2.jpg" ></p> 
+
+
+
+https://user-images.githubusercontent.com/85867562/183650268-58e6ef74-64be-427a-a954-5ef339e0ba96.mp4
+
