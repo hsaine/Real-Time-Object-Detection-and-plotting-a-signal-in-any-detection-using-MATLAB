@@ -1,4 +1,16 @@
-# Real-Time-Object-Detection-and-plotting-a-signal-in-any-detection-using-MATLAB
+# Real Time Object Detection using MATLAB
+
+ 
+## Introduction:
+
+Real-time object detection is the task of doing object detection in real time with fast inference while maintaining a base level of accuracy. Let us see some of the examples in Object detection in real life. An item/object detection framework is additionally utilized in tracking the objects, for instance tracking a ball during a match in the football world cup, tracking the swing of a cricket bat, tracking an individual in a video.
+The main purpose of object detection is to identify and locate one or more effective targets from still image or video data. It comprehensively includes a variety of important techniques, such as image processing, pattern recognition, artificial intelligence and machine learning
+Today Object detection plays a huge role in understanding the scenes associated with military, security, medical, and transportation. Driverless or self-driving cars use object detection to identify traffic signs, pedestrians, other vehicles, etc. For example, Hyundai IONIQ 5 is the latest robotaxi unveiled by Motional.
+
+## Project Description
+
+Our project is an application developed using MATLAB, in this project we tried to integrate image processing techniques and technologies such as: Preprocessing, Segmentation, extraction and real-time object detection, The project consists in taking real-time photos of each object passes in front of the camera, the first photo of each object will be qualified as reference and the calculation of their intensity , then with each movement of this object the application calculates the intensity of the image it will find that it is larger than the reference image which implies the presence of a movement, these movements are presented in a two-dimensional graphed  , then each SIGN in the graph represents a movement of this object.
+
 
 ## Code Of project 
 ```
@@ -89,9 +101,36 @@ while 1
       end;
 end
 ```
-## Compilation
 
+##  Results:
+The first photo shows no objects detected
 
+![image](https://user-images.githubusercontent.com/85867562/187918511-743be269-0119-4f0b-89ea-a110e055f2e7.png)
+
+The second one is an example of demonstrating of the application : when opening the camera it takes the first photos of all objects as reference as you see the red line is null once object moves application detects the presence of the moving and that represented by the blue line as an impulsion   
+
+![image](https://user-images.githubusercontent.com/85867562/187918621-a6099f66-0702-4ff1-9bd8-37c8d24150a0.png)
+
+For more viewing I invite to show the demonstrate of the application indown video:
 
 https://user-images.githubusercontent.com/85867562/183650268-58e6ef74-64be-427a-a954-5ef339e0ba96.mp4
+
+## Applications
+
+Our project we can applied in many services in our daily life in many sectors:
+* We can use the camera with the application to detect criminals in homes in any movements.
+* Use it in street to take the movements of population.  
+* Use to take pictures in any movement inside the body of patients because it will help to detect diseases.
+* In military to flow the trace of enemies.
+* Count the number of times the car has passed this way.
+
+## 6.	Future Enhancements
+
+We hope in the future to enhance our application by adding computer vision, deep learning and prediction to make it more robust.
+
+## Conclusion
+
+A smart city is a technologically modern urban area that uses different types of electronic methods and sensors to collect specific data. Information gained from that data is used to manage assets, resources and services efficiently; in return, that data is used to improve operations across the city. computer vision and image Preprocessing are one of technologies aim to build this city.
+Computer Vision is a critical enabling technology for modern armies, as it aids security systems in detecting enemy forces or traitors and improves the targeting capabilities of directed missile systems.
+Develop a robot can detect movements or counts numbers of cars has passd this way or more applications it helps society and increase economy, environment protection and more impacts. 
 
